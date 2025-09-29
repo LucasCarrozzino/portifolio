@@ -13,7 +13,6 @@ export class MainPageComponent {
       constructor(private _router:Router){}
   
   public onClickExplore(){
-    console.log("entrou porra!!!!!!");
     this._router.navigate(["/about"]);
   }
 }
