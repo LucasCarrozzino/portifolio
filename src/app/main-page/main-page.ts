@@ -3,14 +3,12 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-page',
-  imports: [],
-  templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.scss']
+  standalone: false,
+  templateUrl: './main-page.html',
+  styleUrl: './main-page.scss'
 })
-
-
-export class MainPageComponent {
-      constructor(private _router:Router){}
+export class MainPage {
+  constructor(private _router:Router){}
   
   public onClickExplore(){
     this._router.navigate(["/about"]);
