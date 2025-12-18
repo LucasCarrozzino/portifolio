@@ -1,0 +1,6 @@
+.card-container {
+    display: flex;
+    gap: 1.5rem;      // espaço entre os cards
+    justify-content: center; // centraliza os cards
+    flex-wrap: wrap;  // quebra linha se não couber
+}

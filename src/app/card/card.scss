@@ -1,0 +1,37 @@
+.card{
+    height: 300px;
+    width: 400px;
+    border-radius: 36px;
+    overflow: hidden;
+    position: relative; 
+    display: inline-block;
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}   
+
+section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    z-index: 2;
+    margin: 0;
+    width: 100%;
+    background: #2a2a2a;
+    width: 100%;
+}
+
+.divTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tag{
+    display: flex;
+    margin-right: 20px;
+}

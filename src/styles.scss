@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+$color-background: #0F172A; // fundo navy escuro
+$color-text: #E2E8F0;       // texto cinza claro
+$color-accent: #00FFAB;     // verde neon
+$color-accent-alt: #38BDF8; // azul neon (extra opcional)
+
+/* 🌍 Tema global */
+body {
+  background-color: $color-background;
+  color: $color-text;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: $color-accent;
+  color: $color-background;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $color-accent-alt;
+    transform: scale(1.05);
+  }
+}

@@ -7,6 +7,7 @@ import { MainPage } from './main-page/main-page';
 import { AboutPage } from './about-page/about-page';
 import { ProjectsPage } from './projects-page/projects-page';
 import { Card } from './card/card';
+import { Tag } from './tag/tag';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Card } from './card/card';
     MainPage,
     AboutPage,
     ProjectsPage,
-    Card
+    Card,
+    Tag
   ],
   imports: [
     BrowserModule,

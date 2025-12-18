@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('portifolio');
+  protected readonly title = signal('Lucas Carrozzino');
     constructor(private _router:Router){}
 
   public onNavBtnClicked(navPath:string){

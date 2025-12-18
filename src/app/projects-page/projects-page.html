@@ -1,1 +1,5 @@
-<p>projects-page works!</p>
+<div class="card-container">
+    @for (card of cards; track $index) {
+        <app-card [data]="card">  </app-card>
+    }
+</div>
